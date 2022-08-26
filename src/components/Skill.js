@@ -14,16 +14,6 @@ const Skill = () => {
                 <div className="imgBox">
                   <img src="../images/photoshop.png" />
                 </div>
-                <div className="hoverText">
-                  <p>d</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                </div>
                 <div className="textBox">
                   <strong>PHOTOSHOP</strong>
                 </div>
@@ -39,16 +29,6 @@ const Skill = () => {
               <div className="box02">
                 <div className="imgBox">
                   <img src="../images/illustrate.png" />
-                </div>
-                <div className="hoverText">
-                  <p>d</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
                 </div>
                 <div className="textBox">
                   <strong>ILLUSTRATE</strong>
@@ -71,16 +51,6 @@ const Skill = () => {
                 <div className="imgBox">
                   <img src="../images/html5.png" />
                 </div>
-                <div className="hoverText">
-                  <p>d</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                </div>
                 <div className="textBox">
                   <strong>HTML5</strong>
                   <ul className="dotBox">
@@ -96,16 +66,6 @@ const Skill = () => {
               <div className="box02">
                 <div className="imgBox">
                   <img src="../images/css3.png" />
-                </div>
-                <div className="hoverText">
-                  <p>d</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
                 </div>
                 <div className="textBox">
                   <strong>CSS3</strong>
@@ -123,41 +83,21 @@ const Skill = () => {
                 <div className="imgBox">
                   <img src="../images/javascript.png" />
                 </div>
-                <div className="hoverText">
-                  <p>d</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                </div>
                 <div className="textBox">
                   <strong>JAVASCRIPT</strong>
                   <ul className="dotBox">
                     <li></li>
                     <li></li>
                     <li></li>
-                    <li></li>
+                    <li className="active test"></li>
                     <li className="active"></li>
                   </ul>
-                  <p>80%</p>
+                  <p>70%</p>
                 </div>
               </div>
               <div className="box02 jquery">
                 <div className="imgBox">
                   <img src="../images/jquery.png" />
-                </div>
-                <div className="hoverText">
-                  <p>d</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
                 </div>
                 <div className="textBox">
                   <strong>JQUERY</strong>
@@ -175,52 +115,32 @@ const Skill = () => {
                 <div className="imgBox">
                   <img src="../images/react.png" />
                 </div>
-                <div className="hoverText">
-                  <p>d</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                </div>
                 <div className="textBox">
                   <strong>REACT</strong>
                   <ul className="dotBox">
                     <li></li>
                     <li></li>
-                    <li></li>
-                    <li></li>
+                    <li className="active"></li>
+                    <li className="active"></li>
                     <li className="active"></li>
                   </ul>
-                  <p>80%</p>
+                  <p>40%</p>
                 </div>
               </div>
               <div className="box02">
                 <div className="imgBox">
                   <img src="../images/git.png" />
                 </div>
-                <div className="hoverText">
-                  <p>d</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                </div>
                 <div className="textBox">
                   <strong>git</strong>
                   <ul className="dotBox">
                     <li></li>
                     <li></li>
-                    <li></li>
-                    <li></li>
+                    <li className="active"></li>
+                    <li className="active"></li>
                     <li className="active"></li>
                   </ul>
-                  <p>80%</p>
+                  <p>40%</p>
                 </div>
               </div>
             </div>
@@ -232,52 +152,32 @@ const Skill = () => {
                 <div className="imgBox">
                   <img src="../images/java.png" />
                 </div>
-                <div className="hoverText">
-                  <p>d</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                </div>
                 <div className="textBox">
                   <strong>JAVA</strong>
                   <ul className="dotBox">
                     <li></li>
                     <li></li>
-                    <li></li>
-                    <li></li>
+                    <li className="active"></li>
+                    <li className="active"></li>
                     <li className="active"></li>
                   </ul>
-                  <p>80%</p>
+                  <p>40%</p>
                 </div>
               </div>
               <div className="box02">
                 <div className="imgBox">
                   <img src="../images/oracle.png" />
                 </div>
-                <div className="hoverText">
-                  <p>d</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                  <p>이기술에 대해 어쩌구저쩌구</p>
-                </div>
                 <div className="textBox">
                   <strong>DB(ORACLE)</strong>
                   <ul className="dotBox">
                     <li></li>
                     <li></li>
-                    <li></li>
-                    <li></li>
+                    <li className="active"></li>
+                    <li className="active"></li>
                     <li className="active"></li>
                   </ul>
-                  <p>80%</p>
+                  <p>40%</p>
                 </div>
               </div>
             </div>

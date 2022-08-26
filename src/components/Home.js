@@ -3,17 +3,16 @@ const Home = () => {
     <div className="innerbox">
       <div className="container homeBox">
         <div className="titleBox">
-          <span>dd</span>
-          <h2>Best</h2>
           <div>
-            <p>Next-gen all-in-one</p>
+            <p>Front-End</p>
+            <p>Publisher</p>
             <p className="maskText">
-              <span className="mask">Business</span>&amp;
-              <span className="mask">Consulting</span>
+              <span className="mask">JavaScript</span>&amp;
+              <span className="mask">HTML / CSS</span>
             </p>
-            <p>React Developer</p>
+            <p>Studying React Dev</p>
           </div>
-          <p> jgkfnhklternhlktrhmk;ltmrhtlkr</p>
+          {/* <p> jgkfnhklternhlktrhmk;ltmrhtlkr</p> */}
         </div>
       </div>
     </div>

@@ -7,7 +7,7 @@ const Layout = () => {
                <header>
                     <div className="innerBox">
                          <h1 className="logo"><Link to="/">
-                              <img src={Logo}/></Link></h1>
+                              <img src={Logo}/>K M G</Link></h1>
                          <ul id="nav">
                               <li><Link to="/about">About</Link></li>
                               <li><Link to="/portfolio">Portfolio</Link></li>

@@ -3,8 +3,8 @@ import box01 from "../images/text.svg"
 import box02 from "../images/phone.svg"
 import box03 from "../images/home.png"
 import box04 from "../images/email.png"
-import box05 from "../images/go-back-arrow.png"
-import box06 from "../images/go-back-arrow.png"
+import box05 from "../images/graduation_hat.svg"
+import box06 from "../images/graduation_hat.svg"
 
 const About = () => {
      return(
@@ -45,15 +45,15 @@ const About = () => {
                          <div className="box">
                               <div className="imgBox"><img src={box05}/></div>
                               <div className="textBox">
-                                   <strong>222</strong>
-                                   <p>Kim Min Guk</p>
+                                   <strong>방송정보국제교육원 수료</strong>
+                                   <p>22/03/24 ~ 22/09/03</p>
                               </div>
                          </div>
                          <div className="box">
                               <div className="imgBox"><img src={box06}/></div>
                               <div className="textBox">
-                                   <strong>333</strong>
-                                   <p>Kim Min Guk</p>
+                                   <strong>성결대학교</strong>
+                                   <p>2011.03.01 ~ 2018.03</p>
                               </div>
                          </div>
                     </div>
