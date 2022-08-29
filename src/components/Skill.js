@@ -44,6 +44,13 @@ const Skill = () => {
               </div>
             </div>
           </section>
+          <section className="firstSubSection">
+            <div>
+              <p>
+              
+              </p>
+            </div>
+          </section>
           <section className="secondSection">
             <h2>FRONT END SKILL</h2>
             <div className="designWrap">

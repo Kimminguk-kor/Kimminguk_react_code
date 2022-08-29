@@ -1,64 +1,35 @@
 import './about.css'
-import box01 from "../images/text.svg"
-import box02 from "../images/phone.svg"
-import box03 from "../images/home.png"
-import box04 from "../images/email.png"
-import box05 from "../images/graduation_hat.svg"
-import box06 from "../images/graduation_hat.svg"
+import Person from "./Person";
 
 const About = () => {
      return(
           <div className="innerBox">
-               <div className='container'>
-               {/* <span>About</span> */}
+               <div className='container aboutContainer'>
                <h2>About</h2>
+                    <div className='introText'>
+                         <div className='aboutImg'><img src="../images/about.png"/></div>
+                         <p>안녕하세요. </p>
+                         <p>주어진 일에 최선을 다하고</p>
+                         <p>성실하게 작업하는</p>
+                         <p>김민국입니다.</p>
+                    </div>
                     <div className="aboutWrap">
-                         <div className="box">
-                              <div className="imgBox"><img src={box01}/></div>
-                              <div className="textBox">
-                                   <strong>Name</strong>
-                                   <p>김 민 국</p>
-                                   <p>Kim Min Guk</p>
-                              </div>
-                         </div>
-                         <div className="box">
-                              <div className="imgBox"><img src={box02}/></div>
-                              <div className="textBox">
-                                   <strong>Tel</strong>
-                                   <p>010-7102-5175</p>
-                              </div>
-                         </div>
-                         <div className="box">
-                              <div className="imgBox"><img src={box03}/></div>
-                              <div className="textBox">
-                                   <strong>Address</strong>
-                                   <p>서울시 관악구 대학동 1703-1 건영3차 3동 906호</p>
-                              </div>
-                         </div>
-                         <div className="box">
-                              <div className="imgBox"><img src={box04}/></div>
-                              <div className="textBox">
-                                   <strong>Email</strong>
-                                   <p>come999@naver.com</p>
-                              </div>
-                         </div>
-                         <div className="box">
-                              <div className="imgBox"><img src={box05}/></div>
-                              <div className="textBox">
-                                   <strong>방송정보국제교육원 수료</strong>
-                                   <p>22/03/24 ~ 22/09/03</p>
-                              </div>
-                         </div>
-                         <div className="box">
-                              <div className="imgBox"><img src={box06}/></div>
-                              <div className="textBox">
-                                   <strong>성결대학교</strong>
-                                   <p>2011.03.01 ~ 2018.03</p>
-                              </div>
-                         </div>
+                         <Person person={persons}/>
                     </div>
                </div>
           </div>
      )
 }
+const persons = [
+     {id:1, title:"Name", content:"Kim min guk", icon:"../images/text.svg"},
+     {id:2, title:"Tel", content:"010-7102-5175", icon:"../images/phone.svg"},
+     {id:3, title:"Git", content:"Repository", icon:"../images/home.png", link:"https://github.com/Kimminguk-kor?tab=repositories", linkText:"이동하기"},
+     {id:4, title:"Email", content:"come999@naver.com", icon:"../images/email.png"},
+     {id:5, title:"방송정보국제교육원 수료", content:"22/03/24 ~ 22/09/03", icon:"../images/graduation_hat.svg"},
+     {id:6, title:"성결대학교 졸업", content:"2011.03.01 ~ 2018.03", icon:"../images/graduation_hat.svg"},
+     {id:7, title:"1차 포트폴리오", content:"동물보호관리시스템", icon:"../images/first_logo.png", link:"https://kimminguk-kor.github.io/Animal_Protection/", linkText:"이동하기"},
+     {id:8, title:"2차 포트폴리오", content:"현대자동차", icon:"../images/hyundai_small_logo.png", link:"https://kimminguk-kor.github.io/hyundai_portfolio/", linkText:"이동하기"},
+     {id:9, title:"3차 포트폴리오", content:"American Travel", icon:"../images/ATLogo.png", link:"https://kimminguk-kor.github.io/American_Travel/", linkText:"이동하기"}
+]
+
 export default About;

@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap');
 body{
-  background-image: url(images/laptop-5842509_1920.jpg);
-  background-position: center;
+  background: #e4e4e4;
 }
 *{
   margin:0;
   padding:0;
-  color:white;
+  color:black;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 li{
   list-style: none;
@@ -26,38 +27,41 @@ img{
 }
 
 header{
-  border-bottom: 1px solid #666;
-  background: rgba(0, 0, 0, 0.5);
-  height: 80px;
+  background: rgba(0, 0, 0, 0.8);
+  border-bottom:3px solid black;
+  padding:10px 0;
+  height: 60px;
 }
 header>.innerBox{
   display: flex;
   justify-content: space-between;
 }
-.logo{
-  width:180px;
-  margin:10px;
-}
-.logo img{
-  width: 40px;
-  padding:10px;
-  background-color: #eee;
-  border-radius: 50%;
-  margin-right:10px;
+.logo a{
+  color: #111;
 }
 #nav{
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
+  width:100%;
+  z-index: 10;
 }
 #nav>li{
-  margin:30px;
+  /* margin:30px; */
 }
 #nav>li>a{
   color:#999;
+  font-size:1.4em;
 }
 #nav>li:hover>a{
-  color: #eee;
+  color: white;
+}
+#nav>li img{
+  width: 40px;
+  padding:10px;
+  background-color: white;
+  border-radius: 50%;
+  margin-right:10px;
 }
 
 
@@ -65,25 +69,43 @@ header>.innerBox{
 .homeBox{
   text-align: center;
 }
+.homeImg>img{
+  width:100%;
+}
 .container{
-  /* padding:100px 0; */
+  padding:60px 0;
 }
 
+.innerBox>.titleBox{
+  z-index: 1000;
+}
 /* Home.js */
+.titleBox{
+  padding-left: 35px;
+}
 .titleBox>div {
-  margin: 100px 0;
+  margin: 100px auto;
   line-height: 2;
 }
-
+.homeImg{
+  width:200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 10px solid black;
+  overflow: hidden;
+}
+.titleBox>div>p:first-child{
+  font-size: 84px;
+  font-weight: 700;
+}
 .titleBox>div>p {
   font-size: 60px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .titleBox>div>.maskText>.mask {
   font-weight: 700;
   font-size: 70px;
-  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#5f0077+0,68007a+49,dd00dd+100 */
   background: rgb(95,0,119); /* Old browsers */
   background: -moz-linear-gradient(left,  rgba(95,0,119,1) 0%, rgba(104,0,122,1) 49%, rgba(221,0,221,1) 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(left,  rgba(95,0,119,1) 0%,rgba(104,0,122,1) 49%,rgba(221,0,221,1) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -93,4 +115,9 @@ header>.innerBox{
 
   background-clip: text;
   color: rgba(0, 0, 0, 0);
+}
+
+footer{
+  background: rgba(0, 0, 0, 0.8);
+  height: 100px;
 }

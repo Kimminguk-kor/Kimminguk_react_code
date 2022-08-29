@@ -6,17 +6,19 @@ const Layout = () => {
           <div className="Wrap">
                <header>
                     <div className="innerBox">
-                         <h1 className="logo"><Link to="/">
-                              <img src={Logo}/>K M G</Link></h1>
                          <ul id="nav">
                               <li><Link to="/about">About</Link></li>
                               <li><Link to="/portfolio">Portfolio</Link></li>
+                              <li><Link to="/"><img src={Logo}/></Link></li>
                               <li><Link to="/todo">Todo</Link></li>
                               <li><Link to="/skill">Skill</Link></li>
                          </ul>
                     </div>
                </header>
                <Outlet />
+                    <footer>
+                         <div>test</div>
+                    </footer>
           </div>
      )
 }
