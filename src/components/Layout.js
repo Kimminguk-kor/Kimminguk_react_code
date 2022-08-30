@@ -17,7 +17,11 @@ const Layout = () => {
                </header>
                <Outlet />
                     <footer>
-                         <div>test</div>
+                         <div className="footerText">
+                              <p>Designed by Kimminguk</p>
+                              <p>Tel : 010-7102-5175</p>
+                              <p>Email : come999@naver.com</p>
+                         </div>
                     </footer>
           </div>
      )

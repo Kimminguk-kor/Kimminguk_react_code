@@ -5,7 +5,7 @@ const Skill = () => {
     <div className="innerBox">
       <div className="container">
         {/* <span>Skill</span> */}
-        <h2 className="firstH1">My front end skills</h2>
+        <h2 className="firstH1">SKILLS</h2>
         <div className="skillWrap">
           <section className="firstSection">
             <h2>DESIGN SKILL</h2>
@@ -17,14 +17,14 @@ const Skill = () => {
                 <div className="textBox">
                   <strong>PHOTOSHOP</strong>
                 </div>
-                  <ul className="dotBox">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li className="active"></li>
-                  </ul>
-                  <p>80%</p>
+                <ul className="dotBox">
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li></li>
+                  <li className="active"></li>
+                </ul>
+                <p>80%</p>
               </div>
               <div className="box02">
                 <div className="imgBox">
@@ -45,10 +45,15 @@ const Skill = () => {
             </div>
           </section>
           <section className="firstSubSection">
-            <div>
-              <p>
-              
-              </p>
+            <div className="designWrap">
+              <div className="box02 subText">
+                <strong>PHOTOSHOP</strong>
+                <p>이미지 편집 및 보정, 웹페이지 목업 제작</p>
+              </div>
+              <div className="box02 subText">
+                <strong>PHOTOSHOP</strong>
+                <p>이미지 편집 및 보정, 아이콘 제작 및 텍스트 편집</p>
+              </div>
             </div>
           </section>
           <section className="secondSection">
@@ -102,6 +107,26 @@ const Skill = () => {
                   <p>70%</p>
                 </div>
               </div>
+            </div>
+          </section>
+          <section className="secondSubSection">
+            <div className="designWrap">
+              <div className="box02 subText">
+                <strong>HTML5</strong>
+                <p>웹 접근성과 웹 표준을 지키며, 시멘틱 태그를 준수합니다.</p>
+              </div>
+              <div className="box02 subText">
+                <strong>CSS3</strong>
+                <p>디자인에 맞게 구현하며, 여러 기기에 대한 반응형 웹 구현.</p>
+              </div>
+              <div className="box02 subText">
+                <strong>JavaScript</strong>
+                <p>다양한 이벤트를 활용해 배너, 메뉴등의 동적인 구현을 했습니다.</p>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div className="designWrap">
               <div className="box02 jquery">
                 <div className="imgBox">
                   <img src="../images/jquery.png" />
@@ -139,7 +164,7 @@ const Skill = () => {
                   <img src="../images/git.png" />
                 </div>
                 <div className="textBox">
-                  <strong>git</strong>
+                  <strong>Git</strong>
                   <ul className="dotBox">
                     <li></li>
                     <li></li>
@@ -149,6 +174,22 @@ const Skill = () => {
                   </ul>
                   <p>40%</p>
                 </div>
+              </div>
+            </div>
+          </section>
+          <section className="thirdSubSection">
+            <div className="designWrap">
+              <div className="box02 subText">
+                <strong>JQUERY</strong>
+                <p>Jquery를 이용한 배너 및 플러그인 이용한 작업</p>
+              </div>
+              <div className="box02 subText">
+                <strong>REACT</strong>
+                <p>JSX를 이용한 컴포넌트 기반의 TodoList 구현, 홈페이지 작업</p>
+              </div>
+              <div className="box02 subText">
+                <strong>Git</strong>
+                <p>git을 이용한 버전관리, branch를 통한 협업</p>
               </div>
             </div>
           </section>
@@ -186,6 +227,18 @@ const Skill = () => {
                   </ul>
                   <p>40%</p>
                 </div>
+              </div>
+            </div>
+          </section>
+          <section className="forthSubSection">
+            <div className="designWrap">
+              <div className="box02 subText">
+                <strong>JAVA</strong>
+                <p>JAVA언어 기반 이벤트관리</p>
+              </div>
+              <div className="box02 subText">
+                <strong>DB(ORACLE)</strong>
+                <p>Oracle sql 기반으로 DB 작업</p>
               </div>
             </div>
           </section>
