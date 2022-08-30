@@ -1,82 +1,121 @@
-.skillWrap section>div{
-     display: flex;
-     width:100%;
-     flex-wrap: wrap;
+.skillWrap section > div {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
 }
-.skillWrap section>div .box{
-     display: block;
-     text-align: center;
-     margin:10px;
+.skillWrap section > div .box {
+  display: block;
+  text-align: center;
+  margin: 10px;
 }
-.skillWrap section>div .imgBox{
-     width: 100%;
-     box-sizing: border-box;
+.skillWrap section > div .imgBox {
+  width: 100%;
+  box-sizing: border-box;
 }
-.firstH1{
-     font-size:40px;
+.firstH1 {
+  font-size: 40px;
 }
-h2{
-     margin:5% 0;
+h2 {
+  margin: 5% 0;
 }
-.designWrap{
-     /* max-height: 560px; */
-     width:100%;
-     height:100%;
+.designWrap {
+  width: 100%;
+  height: 100%;
 }
-.box02{
-     position: relative;
-     background: white;
-     border:1px solid black;
-     padding:20px 25px;
-     border-radius: 10px;
-     display: block;
-     justify-content: space-around;
-     width:22%;
-     height: 100%;
-     box-sizing: border-box;
-     text-align: center;
-     margin:5px;
-     transition: 1s;
+.box02 {
+  position: relative;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow: 5px 5px 8px #e0e0e0, -5px -5px 8px #ffffff;
+  padding: 20px 25px;
+  display: block;
+  width: 30%;
+  height: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  margin: 5px;
+  transition: 1s;
 }
-.box02 .imgBox{
-     /* width:10px; */
-     padding:0 20px;
+.box02 .imgBox {
+  padding: 0 20px;
 }
-.box02 .imgBox img{
-     width: 100%;
+.box02 .imgBox img {
+  width: 100%;
 }
-.box02 .textBox{
-     flex:1;
+.box02 .textBox {
+  flex: 1;
 }
-.box02 p{
-     color:black;
-     font-weight: 700;
+.box02 p {
+  color: black;
+  font-weight: 700;
 }
-.box02 .textBox strong{
-     color:#000;
+.box02 .textBox strong {
+  color: #000;
 }
-.dotBox{
-     display: flex;
-     justify-content: center;
+.subText > p {
+  font-weight: 400;
 }
-.dotBox>li{
-     width:12px;
-     height:12px;
-     border-radius: 50%;
-     background: black;
-     margin:5px 10px;
-     position: relative;
-     overflow: hidden;
+.dotBox {
+  display: flex;
+  justify-content: center;
 }
-.dotBox>li.test::after{
-     position: absolute;
-     content: "";
-     background-color: black;
-     left:0%;
-     width:7px;
-     height: 12px;
+.dotBox > li {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: black;
+  margin: 5px 10px;
+  position: relative;
+  overflow: hidden;
 }
-.dotBox>li.active{
-     background: white;
-     border:1px solid black;
+.dotBox > li.test::after {
+  position: absolute;
+  content: "";
+  background-color: black;
+  left: 0%;
+  width: 7px;
+  height: 12px;
+}
+.dotBox > li.active {
+  background: white;
+  border: 1px solid black;
+}
+.firstSubSection,
+.secondSubSection,
+.thirdSubSection,
+.forthSubSection {
+  margin-bottom: 3%;
+  height: 100%;
+  word-break: keep-all;
+}
+.firstSubSection .subText,
+.secondSubSection .subText,
+.thirdSubSection .subText,
+.forthSubSection .subText {
+  height: 100%;
+  min-height: 112px;
+}
+@media screen and (max-width: 768px) {
+  .firstSubSection .subText,
+  .secondSubSection .subText,
+  .thirdSubSection .subText,
+  .forthSubSection .subText {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .dotBox {
+    display: none;
+  }
+  .box02{
+     padding:0;
+  }
+  .box02 .textBox strong,
+  .box02 p {
+     font-size:0.8em;
+  }
+  .box02 .imgBox{
+     padding:0;
+  }
 }
