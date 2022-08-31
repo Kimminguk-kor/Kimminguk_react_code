@@ -46,6 +46,7 @@ const Portfolio = () => {
                                    <div><a href="https://kimminguk-kor.github.io/hyundai_portfolio/" target="_blank"><img src="https://kimminguk-kor.github.io/Kimminguk_Portfolio/images/f02_01.jpg"/>메인 페이지 보러가기</a></div>
                                    <div><a href="https://kimminguk-kor.github.io/hyundai_portfolio/carmenu.html" target="_blank"><img src="https://kimminguk-kor.github.io/Kimminguk_Portfolio/images/f02_02.jpg"/>차 상세 페이지 보러가기</a></div>
                                    <div><a href="https://kimminguk-kor.github.io/hyundai_portfolio/login.html" target="_blank"><img src="https://kimminguk-kor.github.io/Kimminguk_Portfolio/images/f02_03.jpg"/>로그인 페이지 보러가기</a></div>
+
                                    <div><a href="https://kimminguk-kor.github.io/hyundai_portfolio/intro.html" target="_blank"><img src="../images/f02_04.jpg"/>회사소개 보러가기</a></div>
                               </div>
                          </div>
@@ -55,6 +56,7 @@ const Portfolio = () => {
                                    <div><a href="https://kimminguk-kor.github.io/American_Travel/" target="_blank"><img src="https://kimminguk-kor.github.io/Kimminguk_Portfolio/images/f03_01.jpg"/>메인 페이지 보러가기</a></div>
                                    <div><a href="https://kimminguk-kor.github.io/American_Travel/login.html" target="_blank"><img src="https://kimminguk-kor.github.io/Kimminguk_Portfolio/images/f03_02.jpg"/>상세 페이지 보러가기</a></div>
                                    <div><a href="https://kimminguk-kor.github.io/American_Travel/centralPage.html" target="_blank"><img src="https://kimminguk-kor.github.io/Kimminguk_Portfolio/images/f03_03.jpg"/>로그인 페이지 보러가기</a></div>
+
                               </div>
                          </div>
                          <div>
