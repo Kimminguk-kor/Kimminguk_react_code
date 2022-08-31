@@ -70,9 +70,9 @@ const Skill = () => {
                     <li></li>
                     <li></li>
                     <li></li>
-                    <li className="active"></li>
+                    <li className="active test"></li>
                   </ul>
-                  <p>80%</p>
+                  <p>90%</p>
                 </div>
               </div>
               <div className="box02">
@@ -86,9 +86,9 @@ const Skill = () => {
                     <li></li>
                     <li></li>
                     <li></li>
-                    <li className="active"></li>
+                    <li className="active test"></li>
                   </ul>
-                  <p>80%</p>
+                  <p>90%</p>
                 </div>
               </div>
               <div className="box02">
@@ -185,7 +185,7 @@ const Skill = () => {
               </div>
               <div className="box02 subText">
                 <strong>REACT</strong>
-                <p>JSX를 이용한 컴포넌트 기반의 TodoList 구현, 홈페이지 작업</p>
+                <p>JSX를 이용한 컴포넌트 기반의 TodoList 구현, SPA 홈페이지 작업</p>
               </div>
               <div className="box02 subText">
                 <strong>Git</strong>
