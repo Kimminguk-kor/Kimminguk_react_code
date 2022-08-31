@@ -1,8 +1,10 @@
 .todoWrap{
-     width:400px;
+     max-width:400px;
+     width:100%;
      margin:50px auto;
      background: #bbb;
      padding:35px 25px;
+     box-sizing: border-box;
      color:white;
      border-radius: 20px;
      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
