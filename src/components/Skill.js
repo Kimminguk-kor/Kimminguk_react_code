@@ -12,7 +12,7 @@ const Skill = () => {
             <div className="designWrap">
               <div className="box02 skillHover01">
                 <div className="imgBox">
-                  <img src="../images/photoshop.png" />
+                  <img src="https://kimminguk-kor.github.io/Kimminguk_Portfolio/images/photoshop.png" />
                 </div>
                 <div className="textBox">
                   <strong>PHOTOSHOP</strong>
@@ -28,7 +28,7 @@ const Skill = () => {
               </div>
               <div className="box02">
                 <div className="imgBox">
-                  <img src="../images/illustrate.png" />
+                  <img src="https://kimminguk-kor.github.io/Kimminguk_Portfolio/images/illustrate.png" />
                 </div>
                 <div className="textBox">
                   <strong>ILLUSTRATE</strong>
@@ -61,7 +61,7 @@ const Skill = () => {
             <div className="designWrap">
               <div className="box02">
                 <div className="imgBox">
-                  <img src="../images/html5.png" />
+                  <img src="https://kimminguk-kor.github.io/Kimminguk_Portfolio/images/html5.png" />
                 </div>
                 <div className="textBox">
                   <strong>HTML5</strong>
@@ -77,7 +77,7 @@ const Skill = () => {
               </div>
               <div className="box02">
                 <div className="imgBox">
-                  <img src="../images/css3.png" />
+                  <img src="https://kimminguk-kor.github.io/Kimminguk_Portfolio/images/css3.png" />
                 </div>
                 <div className="textBox">
                   <strong>CSS3</strong>
@@ -93,7 +93,7 @@ const Skill = () => {
               </div>
               <div className="box02">
                 <div className="imgBox">
-                  <img src="../images/javascript.png" />
+                  <img src="https://kimminguk-kor.github.io/Kimminguk_Portfolio/images/javascript.png" />
                 </div>
                 <div className="textBox">
                   <strong>JAVASCRIPT</strong>
@@ -129,7 +129,7 @@ const Skill = () => {
             <div className="designWrap">
               <div className="box02 jquery">
                 <div className="imgBox">
-                  <img src="../images/jquery.png" />
+                  <img src="https://kimminguk-kor.github.io/Kimminguk_Portfolio/images/jquery.png" />
                 </div>
                 <div className="textBox">
                   <strong>JQUERY</strong>
@@ -145,7 +145,7 @@ const Skill = () => {
               </div>
               <div className="box02">
                 <div className="imgBox">
-                  <img src="../images/react.png" />
+                  <img src="https://kimminguk-kor.github.io/Kimminguk_Portfolio/images/react.png" />
                 </div>
                 <div className="textBox">
                   <strong>REACT</strong>
@@ -161,7 +161,7 @@ const Skill = () => {
               </div>
               <div className="box02">
                 <div className="imgBox">
-                  <img src="../images/git.png" />
+                  <img src="https://kimminguk-kor.github.io/Kimminguk_Portfolio/images/git.png" />
                 </div>
                 <div className="textBox">
                   <strong>Git</strong>
@@ -198,7 +198,7 @@ const Skill = () => {
             <div className="designWrap">
               <div className="box02">
                 <div className="imgBox">
-                  <img src="../images/java.png" />
+                  <img src="https://kimminguk-kor.github.io/Kimminguk_Portfolio/images/java.png" />
                 </div>
                 <div className="textBox">
                   <strong>JAVA</strong>
@@ -214,7 +214,7 @@ const Skill = () => {
               </div>
               <div className="box02">
                 <div className="imgBox">
-                  <img src="../images/oracle.png" />
+                  <img src="https://kimminguk-kor.github.io/Kimminguk_Portfolio/images/oracle.png" />
                 </div>
                 <div className="textBox">
                   <strong>DB(ORACLE)</strong>
